@@ -6,6 +6,6 @@ zetta()
   .name('FirstName-LastName')
   .use(LED)
   //.link('https://web-production-d01e.up.railway.app/')
-  .listen(3000, function(){
+  .listen(port, function(){
      console.log('Zetta is running at http://127.0.0.1:3000');
 });
