@@ -5,6 +5,6 @@ zetta()
   .name('FirstName-LastName')
   .use(LED)
   //.link('https://git.heroku.com/aqueous-hollows-43439.git')
-  .listen(1337, function(){
+  .listen(0.0.0.0:1337, function(){
      console.log('Zetta is running at http://127.0.0.1:1337');
 });
