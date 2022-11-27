@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "heroku": "^7.66.4",
+    "zetta": "^1.5.1",
+    "zetta-led-mock-driver": "^0.10.0"
+  }
+}
